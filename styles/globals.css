@@ -2,6 +2,7 @@ html,
 body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #ececec;
 }
 
 a {
@@ -9,8 +10,19 @@ a {
   text-decoration: none;
 }
 
+
 * {
   padding: 0;
   margin: 0;
+  max-width: 100%;
   box-sizing: border-box;
+}
+
+
+:root {
+  --primary: #202020;
+  --secondary: #CCB200;
+  --textPrimary: #ececec;
+  --disabled: #c0c0c0;
+  --error:rgb(190, 15, 15);
 }

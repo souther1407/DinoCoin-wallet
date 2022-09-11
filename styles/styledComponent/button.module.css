@@ -1,0 +1,49 @@
+.btn {
+    border-radius: 4px;
+    padding: 8px 16px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: all 0.25s ease-in;
+}
+.primary.bordered {
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+
+.primary.bordered:not(:disabled):hover {
+    background-color: var(--primary);
+}
+
+.secondary.bordered {
+    border: 1px solid var(--secondary);
+    color: var(--secondary);
+}
+.secondary.bordered:not(:disabled):hover {
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.primary.fulled {
+    background-color: var(--primary);
+    color: var(--textPrimary);
+}
+
+.secondary.fulled {
+    background-color: var(--secondary);
+    color: var(--textPrimary);
+}
+
+.primary.bordered:disabled,
+.secondary.bordered:disabled {
+    border: 1px solid var(--disabled);
+    color: var(--disabled);
+    cursor: auto;
+}
+
+.primary.fulled:disabled,
+.secondary.fulled:disabled {
+    background-color:var(--disabled);
+    color: aliceblue;
+    cursor: auto;
+}

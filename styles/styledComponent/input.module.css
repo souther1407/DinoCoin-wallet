@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.error,
+.input.error::placeholder {
+    color: var(--error);
+}
+
+.input,
+.errorMsg,
+.label {
+    transition: all 0.25s ease-in;
+}
+
+.input {
+    margin-top: 4px;
+    padding: 4px 4px;
+    padding-top: 8px;
+    border: none;
+    width: 300px;
+    background: none;
+    border-bottom: 1px solid gainsboro;
+    
+
+}
+.input:focus {
+    outline: none;
+    border-bottom: 1px solid var(--primary);
+}
+
+.input.errror:focus,
+.input.error {
+    border-bottom: 1px solid var(--error);
+}
+
+.input,
+.errorMsg {
+    margin-top: 8px;
+}
+
+.errorMsg {
+    position: absolute;
+    color: var(--error);
+    top: 100%;
+}
