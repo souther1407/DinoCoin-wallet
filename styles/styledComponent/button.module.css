@@ -5,7 +5,10 @@
     background: none;
     cursor: pointer;
     transition: all 0.25s ease-in;
+    display: flex;
+    justify-content: center;
 }
+
 .primary.bordered {
     border: 1px solid var(--primary);
     color: var(--primary);
@@ -13,6 +16,7 @@
 
 .primary.bordered:not(:disabled):hover {
     background-color: var(--primary);
+    color: var(--textPrimary);
 }
 
 .secondary.bordered {
@@ -21,7 +25,7 @@
 }
 .secondary.bordered:not(:disabled):hover {
     background-color: var(--secondary);
-    color: var(--primary);
+    color: var(--textSecondary);
 }
 
 .primary.fulled {

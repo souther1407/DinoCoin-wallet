@@ -1,0 +1,14 @@
+.container {
+    background-color: var(--backgroundPanels);
+    border-radius: 4px;
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+}
+
+.container > :first-child {
+    margin-bottom: 8px;
+}
+

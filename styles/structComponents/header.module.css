@@ -1,0 +1,7 @@
+.container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px;
+   background-color: var(--backgroundPanels);
+    
+}

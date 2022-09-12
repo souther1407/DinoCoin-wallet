@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form > * {
+    margin-bottom: 32px;
+}

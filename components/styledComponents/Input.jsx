@@ -14,7 +14,7 @@ const Input = ({
 }) => {
   const { error, validate } = useValidate(validators);
   const handlerChange = (e) => {
-    onChange(e.target.value);
+    onChange(e.target.id, e.target.value);
     validate(e.target.value);
   };
   useEffect(() => {
